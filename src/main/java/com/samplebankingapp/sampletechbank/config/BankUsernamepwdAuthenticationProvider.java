@@ -56,7 +56,7 @@ public class BankUsernamepwdAuthenticationProvider implements AuthenticationProv
 	else{
 	throw new BadCredentialsException("No user registred with this deta");
 	}
-}
+	}
 
 	@Override
 	public boolean supports(Class<?> authentication) {
